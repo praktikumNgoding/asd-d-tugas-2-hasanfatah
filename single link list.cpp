@@ -30,7 +30,7 @@ void insertdepan (int databaru) {
 		baru->next=head;
 		head=baru;
 	}
-	cout<<"Data Masuk\n";
+	cout<<"Data telah masuk\n\n";
 }
 void tampil() {
 	TNode *bantu;
@@ -71,7 +71,7 @@ int main() {
 		cout<<"2.Tampil"<<endl;
 		cout<<"3.Hapus"<<endl;
 		cout<<"4.Exit"<<endl;
-		cout<<"pilihn anda= ";cin>>pil;
+		cout<<"pilihan anda= ";cin>>pil;
 		switch(pil) {	
 			case 1:
 			cout<<endl;
